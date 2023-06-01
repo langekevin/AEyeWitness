@@ -1,0 +1,21 @@
+.app {
+    overflow-y: auto;
+    background-color: transparent;
+}
+
+.appContainer {
+    width: 95%;
+    margin: auto;
+    background-color: transparent;
+}
+
+@media (min-width: 700px) {
+    .appContainer {
+        width: 700px;
+        max-width: 60%;
+    }
+}
+
+.MainLayout {
+    background-color: transparent;
+}
